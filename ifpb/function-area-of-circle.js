@@ -1,6 +1,6 @@
-const  pi  =  Math . PI ;
+const  PI =  Math . PI ;
 function  AreaCirculo ( raio ) {
-   área  var =  pi * raio ** 2 ;
+   área  var =  PI * raio ** 2 ;
   console . log ( "A área do Círculo é:" , área ) ;
 } ;
 var  Raio  =  10 ;
