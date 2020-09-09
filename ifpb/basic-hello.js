@@ -1,2 +1,2 @@
 nome  const =  'camilly' ;
-console . log ( `Olá, $ { name } !` ) ;
+console . log ( `Olá, $ { nome } !` ) ;
