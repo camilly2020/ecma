@@ -1,6 +1,7 @@
-function area(raio) {
-  let AreaOfCircles;
+function Area(raio) {
+  let area;
 
-  AreaOfCircles = Math.PI * raio ** 2;
+  area = Math.PI * raio ** 2;
+  return area;
 }
-module.export = area;
+module.export = Area;
