@@ -1,7 +1,6 @@
 function Area(raio) {
-  let area;
-
-  area = Math.PI * raio ** 2;
-  return area;
+  let AreaCirculo;
+  AreaCirculo = Math.PI * raio ** 2;
+  return AreaCirculo;
 }
 module.export = Area;
