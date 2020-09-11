@@ -1,8 +1,7 @@
 peso  const =  200 ;
 altura  const =  1,5 ;
-const  bmi  =  peso / altura ** 2
-
-deixe o  resultado
+const  bmi  =  peso / altura ** 2;
+deixe o  resultado;
 
 if  ( bmi <= 18 , 5 ) {
     resultado  =  "Peso insuficiente" ;
