@@ -1,7 +1,6 @@
-const  PI =  Math . PI ;
-function  AreaCirculo ( raio ) {
-   área  var =  PI * raio ** 2 ;
-  console . log ( "A área do Círculo é:" , área ) ;
-} ;
-var  Raio  =  10 ;
-AreaCirculo ( Raio ) 
+function area(raio) {
+  let AreaOfCircles;
+
+  AreaOfCircles = Math.PI * raio ** 2;
+}
+module.export = area;
