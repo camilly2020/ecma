@@ -2,21 +2,20 @@
 const peso =  200 ;
 const altura  =  1.5 ;
 const  bmi  =  peso / altura ** 2;
-let calculo;
+let resultado;
 
 
 if  ( bmi <= 18.5 ){
-    calculo  =  "Peso insuficiente";
+    resultado  =  "Peso insuficiente";
 }
 else  if  ( bmi <= 24.9 ) {
-    calculo =  "Peso normal";
+    resultado =  "Peso normal";
 }
 else  if  ( bmi <= 29.9 ) {
-    calculo =  "Sobrepeso" 
-
+    resultado =  "Sobrepeso" 
 }
 else {
-    calculo  =  "Obesidade";
+    resultado  =  "Obesidade";
 }
 
-console.log  ( `IMC: ${calculo }` ) ;
+console.log  ( `IMC: ${resultado}` ) ;
