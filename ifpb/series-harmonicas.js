@@ -1,6 +1,6 @@
-n const  =  10 ; 
-deixe soma  =  0 ;
-para ( deixe  i  =  1 ;  i <= n ;  i +=) {
-  soma  + =  1 / i
+const n =  10; 
+let soma  =  0 ;
+for ( let  i  =  1 ;  i <= n ;  i += 1){
+  soma  +=1 / i
 }
-console . log ( soma )
+console.log ( soma )
