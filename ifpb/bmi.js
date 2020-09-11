@@ -19,4 +19,4 @@ else {
     calculo  =  "Obesidade";
 }
 
-console.log  ( `IMC: $ { resultado } ` ) ;
+console.log  ( `IMC: ${calculo }` ) ;
