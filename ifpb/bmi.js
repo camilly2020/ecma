@@ -1,7 +1,6 @@
-
-const peso =  200 ;
-const altura  =  1.5 ;
-const  bmi  =  peso / altura ** 2;
+const peso =Number(prompt("Qual o seu peso?")) ;
+const altura =Number(prompt("Qual a sua altura")) ;
+let  bmi  =  peso / altura ** 2;
 let resultado;
 
 
