@@ -2,7 +2,7 @@
   "name": "node-http-server",
   "version": "1.0.0",
   "description": "Node.js example server starter project",
-  "main": "src/index.js",
+  "main": "src/area-of-circles.js",
   "scripts": {
     "start": "nodemon src/index.js"
   },
